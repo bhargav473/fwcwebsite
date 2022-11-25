@@ -7768,3 +7768,19 @@ section.big-block .client-logo {
     background: #005791!important;
     color: white!important
 }
+
+body{
+   background: #fff!important
+}
+.text-justify{
+  text-align: justify!important;
+/*text-align: center*/
+}
+
+.cbp-l-filters-alignCenter .cbp-filter-item.cbp-filter-item-active{
+    background: #005791 !important
+}
+
+.cus-col{
+    color: #fff !important;
+}
