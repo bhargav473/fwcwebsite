@@ -254,7 +254,7 @@ video {
   width: 100%;
 }
 .html5-video {
-  width: 100% !important ;
+  max-width: 100%  ;
   background-color: #000;
   height: auto;
   left: 50%;
@@ -269,7 +269,15 @@ video {
   -o-transform: translate(-50%, -50%);
   width: auto;
   z-index: -3;
+  
+  
 }
+/*@media only screen and (max-width: 600px) {
+  .html5-video {
+ 
+   height: 100%!important
+  }*/
+  
 iframe,
 embed,
 object {
@@ -2788,23 +2796,23 @@ button:focus {
   width: 100%;
   min-width: 300px;
 }
-.btn.disabled,
+/*.btn.disabled,
 .btn[disabled],
 fieldset[disabled] .btn {
   opacity: 1;
-}
-.btn-primary {
+}*/
+/*.btn-primary {
   color: #fff;
   background-color: #005791;
   border: 2px solid #005791;
-}
-.btn-primary:hover,
+}*/
+/*.btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus {
   color: #fff;
   border: 2px solid #ec77ab;
   background-color: #ec77ab;
-}
+}*/
 .btn-primary-outline {
   color: #fff;
   border: 2px solid transparent;
@@ -2841,18 +2849,18 @@ fieldset[disabled] .btn {
   border: 2px solid #1d2124;
   background-color: transparent;
 }
-.btn-light {
+/*.btn-light {
   color: #1d2124;
   border-color: #fff;
   background-color: #fff;
-}
-.btn-light:hover,
+}*/
+/*.btn-light:hover,
 .btn-light:active,
 .btn-light:focus {
   color: #fff;
   border-color: #1d2124;
   background-color: #1d2124;
-}
+}*/
 .btn-light-outline {
   color: #fff;
   border-color: #fff;
@@ -7767,4 +7775,38 @@ section.big-block .client-logo {
 .dropdown-menu li a:hover{
     background: #005791!important;
     color: white!important
+}
+
+body{
+   background: #fff!important
+}
+.text-justify{
+  text-align: justify!important;
+/*text-align: center*/
+}
+
+.cbp-l-filters-alignCenter .cbp-filter-item.cbp-filter-item-active{
+    background: #005791 !important
+}
+
+.cus-col{
+    color: #fff !important;
+}
+
+.contact-form{
+    background: white!important 
+}
+.contact-form input, textarea, select{
+    background: white;
+        color: #888!important;
+        background: #ecf0f1;
+        border: 1px solid lightgray
+}
+.contact-form ::placeholder{
+
+    color: gray!important;
+    
+}
+.address p{
+    font-weight: 800!important
 }
