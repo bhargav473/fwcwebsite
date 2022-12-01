@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Insights</title>
+<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+<!-- Core Style Sheets -->
+<link rel="stylesheet" href="assets/css/master.css">
+<!-- Responsive Style Sheets -->
+<link rel="stylesheet" href="assets/css/responsive.css">
+<!-- Revolution Style Sheets -->
+<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+
+</head>
+<body>
+
+<!--== Loader Start ==-->
+<div id="loader-overlay">
+  <div class="loader">
+    <div class="spinner">
+    	<svg viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+    		<circle class="length" fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
+    	</svg>
+    	<svg viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+    		<circle fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
+    	</svg>
+    	<svg viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+    		<circle fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
+    	</svg>
+    	<svg viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+    		<circle fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
+    	</svg>
+    </div>
+  </div>
+</div>
+<!--== Loader End ==-->
+
+<!--== Wrapper Start ==-->
+<div class="wrapper">
+
+ <!--== Header Start ==-->
+         <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full no-border">
+            <!--== Start Top Search ==-->
+            <div class="fullscreen-search-overlay" id="search-overlay">
+               <a href="#" class="fullscreen-close" id="fullscreen-close-button"><i class="icofont icofont-close"></i></a>
+               <div id="fullscreen-search-wrapper">
+                  <form method="get" id="fullscreen-searchform">
+                     <input type="text" value="" placeholder="Type and hit Enter..." id="fullscreen-search-input" class="search-bar-top">
+                     <i class="fullscreen-search-icon icofont icofont-search">
+                     <input value="" type="submit">
+                     </i>
+                  </form>
+               </div>
+            </div>
+            <!--== End Top Search ==-->
+            <div class="container">
+               <!--== Start Atribute Navigation ==-->
+               <!--== End Atribute Navigation ==-->
+               <!--== Start Header Navigation ==-->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="tr-icon ion-android-menu"></i> </button>
+                  <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="assets/images/logo-white.png" alt=""> <img class="logo logo-scrolled" src="assets/images/logo-black.png" alt=""> </a> </div>
+               </div>
+               <!--== End Header Navigation ==-->
+               <!--== Collect the nav links, forms, and other content for toggling ==-->
+               <div class="collapse navbar-collapse" id="navbar-menu">
+                  <ul class="nav cus-sty navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">
+                     <li class="dropdown">
+                        <a href="index.html" class="dropdown-toggle page-scroll" data-toggle="dropdown">Home</a>
+<!--                        <ul class="dropdown-menu">
+                           <li>
+                              <a href="">Parallax</a>
+                           </li>
+                
+                        </ul>-->
+                     </li>
+                     <!--          <li><a class="page-scroll" href="#about">Industies</a></li>
+                        <li><a class="page-scroll" href="#team">Services</a></li>
+                        <li><a class="page-scroll" href="#service">Insights</a></li>
+                        <li><a class="page-scroll" href="#work">About Us</a></li>
+                        <li><a class="page-scroll" href="#testimonial">Career</a></li>
+                        <li><a class="page-scroll" href="#blog">Blog</a></li>
+                        <li><a class="page-scroll" href="#contact">Contact</a></li>-->
+                     <li><a class="page-scroll" href="about.html">About Us</a></li>
+                     <li><a class="page-scroll" href="services.html">Services</a></li>
+                     <li><a class="page-scroll" href="insights.html">Insights</a></li>
+                     <li><a class="page-scroll" href="industries.html">Industries</a></li>
+                     <li><a class="page-scroll" href="career.html">Career</a></li>
+                     <li><a class="page-scroll" href="contact.html">Contact</a></li>
+                  </ul>
+               </div>
+               <!--== /.navbar-collapse ==-->
+            </div>
+            <!-- Start Side Menu -->
+            <div class="side dark-bg">
+               <a href="index.html" class="logo-side"><img src="assets/images/logo-full-light.png" alt="side-logo"/></a>
+               <a href="#" class="close-side"><i class="icofont icofont-close"></i></a>
+               <div class="widget mt-120">
+                  <ul class="link">
+                     <li class="link-item"><a class="page-scroll" href="home.html">Home</a></li>
+                     <li class="link-item"><a class="page-scroll" href="about.html">About</a></li>
+                     <li class="link-item"><a class="page-scroll" href="insights.html">insights</a></li>
+                     <li class="link-item"><a class="page-scroll" href="industries.html">industries</a></li>
+                     <li class="link-item"><a class="page-scroll" href="career.html">career</a></li>
+                     <li class="link-item"><a class="page-scroll" href="contact.html">contact</a></li>
+              
+                  </ul>
+               </div>
+               <ul class="social-media">
+                  <li><a href="#" class="icofont icofont-social-facebook"></a></li>
+                  <li><a href="#" class="icofont icofont-social-twitter"></a></li>
+                  <li><a href="#" class="icofont icofont-social-behance"></a></li>
+                  <li><a href="#" class="icofont icofont-social-dribble"></a></li>
+                  <li><a href="#" class="icofont icofont-social-linkedin"></a></li>
+               </ul>
+            </div>
+            <!-- End Side Menu -->
+         </nav>
+         <!--== Header End ==-->
+
+  <!--== Page Title Start ==-->
+  <div class="transition-none">
+      <section class="title-hero-bg parallax-effect" style="background-image: url(assets/images/background/parallax-bg-2.jpg);">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="page-title text-center white-color">
+                <h1 class="raleway-font font-300">Insights</h1>
+                <div class="breadcrumb mt-20">
+                    <!-- Breadcrumb Start -->
+                        <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li>Insights</li>
+                        </ul>
+                    <!-- Breadcrumb End -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      
+      
+      </section>
+      
+  </div>
+  <!--== Page Title End ==-->
+
+  <!--== Blog Details Start ==-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <section class="white-bg">
+    <div class="container">
+      <div class="row">
+          
+          
+        <div class="col-md-9 col-sm-9 col-xs-12 xs-mb-50">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 mb-50">
+                
+                
+                    <h2 class="recent-post-title">Recent Posts</h2>
+            <div class="row">
+              <div class="col-md-6 text-justify mb-50 " >
+                <div class="post-wrap">
+                  <div class="post-img">
+                    <div class="blog-grid-slider slick">
+                      <div class="item"><img class="img-responsive" src="assets/images/post/post-01.jpg" alt=""/></div>
+                      <div class="item"><img class="img-responsive" src="assets/images/post/post-02.jpg" alt=""/></div>
+                    </div>
+                  </div>
+               
+                  <div class="post-text">
+                    <h3><a href="">Global Director Insights</a></h3>
+                    <p>
+                     “For the past decade, FWC has been offering staffing assistance in the corporate. I am happy and privileged to serve as the organization's worldwide director and co-founder. We have worked with numerous Fortune 500 companies, assisting them with strategic sourcing and specialty area needs. As a growth-oriented firm, FWC has always invested in the morality of its clients and workers, and I believe that is the root of our success.”
+                    </p>
+                    <a href="#" class="btn-text mt-18 blockquote-footer">P.Mohan</a>
+                  </div>
+                </div>
+              </div>
+                
+                
+                  <div class="col-md-6 text-justify mb-50 " >
+                <div class="post-wrap">
+                  <div class="post-img">
+                    <div class="blog-grid-slider slick">
+                      <div class="item"><img class="img-responsive" src="assets/images/post/post-01.jpg" alt=""/></div>
+                      <div class="item"><img class="img-responsive" src="assets/images/post/post-02.jpg" alt=""/></div>
+                    </div>
+                  </div>
+               
+                  <div class="post-text">
+                    <h3><a href="">Director of Operations & HR</a></h3>
+                     <p>
+                   FWC has been one of the greatest venues for both professional and personal development. I've been the primary account manager for several of our clients, which has given me a solid understanding of corporate culture. Furthermore, FWC has dedicated itself to its client's structures and gives the best possible assistance. We are constantly open to new challenges from the corporate world, and I believe FWC is a dynamic organization capable of serving any business sector
+                    </p>
+                    <a href="#" class=" mt-18 blockquote-footer">Titus George</a>
+                  </div>
+                </div>
+              </div>
+                
+                
+        
+                
+                       <div class="col-md-6 blog-list">
+                <div class="">
+                  <div class="post-img">
+                    <div class="blog-grid-slider slick">
+                      <div class="item"><img class="img-responsive" src="assets/images/post/post-03.jpg" alt=""/></div>
+                      <div class="item"><img class="img-responsive" src="assets/images/post/post-04.jpg" alt=""/></div>
+                    </div>
+                  </div>
+                
+                  <div class="">
+                    <h3><a href="">Technology Insights </a></h3>
+                    <p>
+                  Over the period of 10 years and filling more than 10000+ positions for C2H & Contingent staffing , FWC has been a pioneer in providing niche area skill sets & resources. Our expertise mainly roots from these technologies.
+                    </p>
+                    <a href="#" class="btn-text">Read More</a>
+                  </div>
+                </div>
+              </div>
+                
+            </div>
+                
+                
+                
+                
+                
+                
+                
+                
+<!--              <ul class="single-blog-list">
+                <li>
+                  <div class="date-box">
+                    <span class="day default-bg">20</span>
+                    <span class="month">NOV</span>
+                  </div>
+                  <div class="">
+                    <div class="post-img">
+                      <div class="blog-grid-slider slick">
+                        <div class="item"><img class="img-responsive" src="assets/images/post/post-05.jpg" alt=""/></div>
+                        <div class="item"><img class="img-responsive" src="assets/images/post/post-06.jpg" alt=""/></div>
+                      </div>
+                        <div class=""><img class="img-responsive" src="assets/images/post/post-06.jpg" alt=""/></div>
+                    </div>
+                    <div class="post-text">
+                      <h3><a href="">Global Director Insights</a></h3>
+                      <p>
+                       “For the past decade, FWC has been offering staffing assistance in the corporate. 
+                       I am happy and privileged to serve as the organization's worldwide director and co-founder. 
+                       We have worked with numerous Fortune 500 companies, assisting them with strategic sourcing and specialty area needs.
+                       As a growth-oriented firm, FWC has always invested in the morality of its clients and workers, and I believe that is the root of our success.”
+                      </p>
+                      <a href="#" class="btn-text">P.Mohan </a>
+                    </div>
+                  </div>
+                  <div class="post-meta">
+                      <span><i class="icofont icofont-user-male"></i><a href="#">Hugo Adams</a></span> <span><i class="icofont icofont-ui-tag"></i><a href="#">News</a>, <a href="#">Events</a></span>
+                      <span><i class="icofont icofont-comment"></i><a href="#">10 Comments</a></span> <span><i class="icofont icofont-simple-right"></i><a href="#">Read More</a></span>
+                  </div>
+                </li>
+                <li>
+                  <div class="date-box">
+                    <span class="day default-bg">17</span>
+                    <span class="month">OCT</span>
+                  </div>
+                  <div class="post-wrap">
+                    <div class="post-img">
+                      <div class="blog-grid-slider slick">
+                        <div class="item"><img class="img-responsive" src="assets/images/post/post-03.jpg" alt=""/></div>
+                        <div class="item"><img class="img-responsive" src="assets/images/post/post-04.jpg" alt=""/></div>
+                      </div>
+                    </div>
+                    <div class="post-text">
+                      <h3><a href="">Director of Operations & HR</a></h3>
+                      <p>
+                        FWC has been one of the greatest venues for both professional and personal development. 
+                        I've been the primary account manager for several of our clients, which has given me a solid understanding of corporate culture. 
+                        Furthermore, FWC has dedicated itself to its client's structures and gives the best possible assistance.
+                        We are constantly open to new challenges from the corporate world, and I believe FWC is a dynamic organization capable of serving any business sector
+                      </p>
+                      <a href="#" class="btn-text">Titus George</a>
+                    </div>
+                  </div>
+                  <div class="post-meta">
+                      <span><i class="icofont icofont-user-male"></i><a href="#">Hugo Adams</a></span> <span><i class="icofont icofont-ui-tag"></i><a href="#">News</a>, <a href="#">Events</a></span>
+                      <span><i class="icofont icofont-comment"></i><a href="#">10 Comments</a></span> <span><i class="icofont icofont-simple-right"></i><a href="#">Read More</a></span>
+                  </div>
+                </li>
+                <li>
+                  <div class="date-box">
+                    <span class="day default-bg">15</span>
+                    <span class="month">JAN</span>
+                  </div>
+                  <div class="post-wrap">
+                    <div class="post-img">
+                      <img class="img-responsive" src="assets/images/post/post-01.jpg" alt=""/>
+                    </div>
+                    <div class="post-text">
+                      <h3><a href="">Technology Insights </a></h3>
+                      <p>
+                       Over the period of 10 years and filling more than 10000+ positions for C2H & Contingent staffing , FWC has been a pioneer in providing niche area skill sets & resources. Our expertise mainly roots from these technologies.
+                      </p>
+                      <a href="#" class="btn-text">Read More</a>
+                    </div>
+                  </div>
+                  <div class="post-meta">
+                      <span><i class="icofont icofont-user-male"></i><a href="#">Hugo Adams</a></span> <span><i class="icofont icofont-ui-tag"></i><a href="#">News</a>, <a href="#">Events</a></span>
+                      <span><i class="icofont icofont-comment"></i><a href="#">10 Comments</a></span> <span><i class="icofont icofont-simple-right"></i><a href="#">Read More</a></span>
+                  </div>
+                </li>
+              </ul>
+                -->
+                
+<!--                
+                 <div class="">
+                 <img style="width: 80% " src="assets/images/background/technologies.png" alt=""/>
+            </div>-->
+            </div>
+            <!--== Post End ==-->
+            
+         
+
+          </div>
+ 
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="widget sidebar_widget">
+            <h5 class="aside-title">Newsletter</h5>
+            <form class="search-form" method="get">
+              <input type="text" name="name" class="md-input" id="search" required="" placeholder="Type what it's your mind...">
+              <button type="submit" class="icofont icofont-search-alt-2 search-submit"></button>
+            </form>
+          </div>
+          <div class="mb-50">
+            <h5 class="aside-title">About Me</h5>
+            <a href="">
+              <img src="assets/images/about-me.jpg" alt="about-me" />
+            </a>
+            <p class="font-300 mt-30">Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed dui lorem adipiscing in adipiscing et.</p>
+            <a class="btn btn-md btn-dark-outline btn-square mt-10">About Author</a>
+          </div>
+          <div class="sidebar_widget widget_archive mb-50">
+            <h5 class="aside-title">Archive</h5>
+            <ul>
+              <li> <a href="#">January 2018</a> <span>14</span></li>
+              <li> <a href="#">May 2017</a> <span>8</span></li>
+              <li> <a href="#">June 2017</a> <span>63</span></li>
+              <li> <a href="#">Febuary 2012</a> <span>45</span></li>
+              <li> <a href="#">April 2016</a> <span>88</span></li>
+            </ul>
+          </div>
+          <div class="social-icons-style-06 mb-50">
+            <h5 class="aside-title text-uppercase">Follow Us</h5>
+            <ul class="xs-icon">
+              <li><a class="icon facebook" href="#."><i class="icofont icofont-facebook"></i></a></li>
+              <li><a class="icon twitter" href="#."><i class="icofont icofont-twitter"></i></a></li>
+              <li><a class="icon tumblr" href="#."><i class="icofont icofont-tumblr"></i></a></li>
+              <li><a class="icon flicker" href="#."><i class="icofont icofont-flikr"></i></a></li>
+              <li><a class="icon instagram" href="#."><i class="icofont icofont-instagram"></i></a></li>
+            </ul>
+          </div>
+
+   
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  
+  <section >
+      
+      <div class="container">
+      <div class="row">
+           <div class="col-sm-7">
+                 <img style="width: 100% " src="assets/images/background/technologies.png" alt=""/>
+            </div>
+            <div class="col-sm-5">
+                <h3 style="line-height: 40px">
+                   Innovative Resource Pool, with the latest Technologies. 
+                    
+                </h3>
+                <h1 class="font-800 fs-2">
+                    <span style="color: #086ad8">30+</span>  Technologies 
+
+                </h1>
+                <h3>
+Flexible Techstack 
+                </h3>
+                <h3>
+                    Niche area fidelity
+                </h3>
+            </div>
+          
+      </div>
+          </div>
+     
+  </section>
+  
+  
+  <section class="parallax-bg fixed-bg sm-pb-80 sm-pt-80 " style="color: ">
+            <div class=""></div>
+            <div class="container" >
+               <div class="row">
+                  <div class="col-md-8 centerize-col text-center">
+                     <div class="section-title">
+                        <h1 class="raleway-font ">External Scouts</h1>
+                        <hr class="center_line default-bg">
+                        <p style="font-size: 18px">
+                             A large pool of resources who are trained in-house and deployed to clientele locations is one of the core backbones of FWC. 
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row mt-50 row-flex flex-center">
+                  <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-50 sm-mb-50">
+                     <div class="counter-wrap wow fadeInRight " data-wow-delay="0.1s">
+<!--                        <i class="icon-trophy font-70px"></i>-->
+                        <h2><span class="counter font-600 text-primary">700</span > <span class="text-primary">+</span></h2>
+                        <h3 class="dark-color font-800 text-uppercase"> Profession Outsourced</h3>
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-50 sm-mb-50">
+                     <div class="counter-wrap wow fadeInRight " data-wow-delay="0.2s">
+<!--                        <i class="icon-toolbox font-70px"></i>-->
+                        <h2><span class="counter font-600 text-primary">30</span><span class="text-primary">+</span></h2>
+                        <h3 class="dark-color font-800 text-uppercase">Teams</h3>
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-50">
+                     <div class="counter-wrap wow fadeInRight " data-wow-delay="0.3s">
+<!--                        <i class="icon-lifesaver font-70px"></i>-->
+                        <h2><span class="counter font-600 text-primary">8</span><span class="text-primary">+</span></h2>
+                        <h3 class="dark-color font-800 text-uppercase">States</h3>
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                     <div class="counter-wrap wow fadeInRight " data-wow-delay="0.4s">
+<!--                        <i class="icon-linegraph font-70px"></i>-->
+                        <h2><span class="counter font-600 text-primary">2</span><span class="text-primary" >+</span></h2>
+                        <h3 class="dark-color font-800 text-uppercase">Countries</h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+  <!--== Blog Details End ==-->
+
+  <!--== Footer Start ==-->
+  <footer class="footer">
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <div class="copy-right text-left">© 2020. All rights reserved</div>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <ul class="social-media">
+              <li><a href="#" class="icofont icofont-facebook"></a></li>
+      			  <li><a href="#" class="icofont icofont-twitter"></a></li>
+      			  <li><a href="#" class="icofont icofont-behance"></a></li>
+      			  <li><a href="#" class="icofont icofont-dribble"></a></li>
+              <li><a href="#" class="icofont icofont-linkedin"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--== Footer End ==-->
+
+  <!--== Go to Top  ==-->
+  <a href="javascript:" id="return-to-top"><i class="icofont icofont-arrow-up"></i></a>
+  <!--== Go to Top End ==-->
+
+</div>
+<!--== Wrapper End ==-->
+
+<!--== Javascript Plugins ==-->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/master.js"></script>
+
+<!-- Revolution js Files -->
+<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="revolution/js/revolution.extension.actions.min.js"></script>
+<script src="revolution/js/revolution.extension.carousel.min.js"></script>
+<script src="revolution/js/revolution.extension.kenburn.min.js"></script>
+<script src="revolution/js/revolution.extension.layeranimation.min.js"></script>
+<script src="revolution/js/revolution.extension.migration.min.js"></script>
+<script src="revolution/js/revolution.extension.navigation.min.js"></script>
+<script src="revolution/js/revolution.extension.parallax.min.js"></script>
+<script src="revolution/js/revolution.extension.slideanims.min.js"></script>
+<script src="revolution/js/revolution.extension.video.min.js"></script>
+<!--== Javascript Plugins End ==-->
+
+</body>
+
+<!-- Mirrored from www.incognitothemes.com/xtract/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Nov 2022 12:11:49 GMT -->
+</html>
